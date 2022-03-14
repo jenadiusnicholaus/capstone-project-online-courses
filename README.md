@@ -33,5 +33,6 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+- And an appropriate  goes to  Creative Commons for the best desin.  
 - Inspiration
 - etc
