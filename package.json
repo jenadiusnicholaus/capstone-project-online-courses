@@ -1,0 +1,23 @@
+{
+  "name": "capstone-project-online-courses",
+  "version": "1.0.0",
+  "description": "Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenadiusnicholaus/capstone-project-online-courses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenadiusnicholaus/capstone-project-online-courses/issues"
+  },
+  "homepage": "https://github.com/jenadiusnicholaus/capstone-project-online-courses#readme",
+  "devDependencies": {
+    "hint": "^6.1.10"
+  }
+}
