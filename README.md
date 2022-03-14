@@ -1,4 +1,4 @@
-# capstone-project-online-courses
+# Capstone-project-online-courses
 
 Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructors
 
@@ -24,7 +24,7 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 
 - Twiter: *[@jenadius_kaim](https://twitter.com/jenadius_kaim)*.
 
-- LinkedIn: *[@jenadiusnicholaus](https://www.linkedin.com/in/jenadius-nicholaus-73126819b/)*.
+- LinkedIn: *[@Jenadius Nicholaus](https://www.linkedin.com/in/jenadius-nicholaus-73126819b/)*.
 
 <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f91d.png" width="20" height=" 20" /> Contributing
 
