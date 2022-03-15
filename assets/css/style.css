@@ -3,17 +3,13 @@ body {
 }
 
 p {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 h2 {
-  color: #fff
+  color: #fff;
 }
-
-.container {
-    padding: 0 200px 0 200px;
-  }
 
 header {
   height: 80px;
@@ -21,7 +17,6 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-
 }
 
 .brand {
@@ -35,6 +30,74 @@ header {
   width: 130px;
 }
 
+.hamburger-icon div {
+  height: 1px;
+  background-color: #352078;
+  margin-top: 6px;
+  padding: 2px;
+  transition: 0.4s;
+}
+
+.open .icons-bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+  width: 20px;
+  margin: 6px 6px 6px 6px;
+}
+
+.open .icons-bar2 {
+  opacity: 0;
+}
+
+.open .icons-bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+  width: 20px;
+  margin: 6px 6px 6px 6px;
+}
+
+.mobile-menu {
+  margin-top: 27px;
+  display: none;
+  position: absolute;
+  color: #fff;
+  background-color: #352078;
+  top: 30px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  padding-top: 16px;
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  width: 85%;
+  padding: 0 64px 0 24px;
+}
+
+.mobile-menu li {
+  width: 100%;
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.mobile-menu li a {
+  color: #dbd8d7;
+  text-decoration-line: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.mobile-menu li a:hover {
+  color: #ffcf00;
+}
+
 .hero {
   height: 100vh;
   overflow: auto;
@@ -46,7 +109,7 @@ header {
 .hero h1 {
   color: #352078;
   font-size: 64px;
-  background: -webkit-linear-gradient(#FFCF00, #352078);
+  background: -webkit-linear-gradient(#ffcf00, #352078);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -82,12 +145,13 @@ header {
   justify-content: space-around;
 }
 
-.available-day h5, p {
-  margin: 12px ;
+.available-day h5,
+p {
+  margin: 12px;
   padding: 0;
 }
 
-.available-day  h5 {
+.available-day h5 {
   line-height: 0;
   font-size: 24px;
   color: #352078;
@@ -95,26 +159,26 @@ header {
 
 .available-day h6 {
   display: flex;
-  color: #FFCF00;
-  background-color:  #352078;
+  color: #ffcf00;
+  background-color: #352078;
   border-radius: 20px;
   padding: 12px;
   font-size: medium;
   align-items: center;
 }
 
-.contact-info p, u {
+.contact-info p,
+u {
   font-size: medium;
   line-height: 0;
 }
 
 .contact-info {
   margin-top: 34px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 
 .main-course-categories {
   background-color: #352078;
@@ -127,7 +191,7 @@ header {
   width: auto;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .flex-h2 h2 {
@@ -135,27 +199,26 @@ header {
   padding-bottom: 0;
   margin-bottom: 0;
   font-weight: normal;
-  font-size: 34px
+  font-size: 34px;
 }
 
 .flex-h2 hr {
   padding-top: 4px;
   margin-top: 10px;
-  border: 1px solid #FFCF00;
+  border: 1px solid #ffcf00;
   width: 30px;
-  background-color:#FFCF00;
+  background-color: #ffcf00;
 }
 
 .course-category-card {
   padding: 12px;
   color: #fff;
-  background-color:#4a368f;
+  background-color: #4a368f;
   border: 1px solid #4a368f;
 }
 
-.course-category-card div
-  {
-    padding: 0 12px 0 12px;
+.course-category-card div {
+  padding: 0 12px 0 12px;
 }
 
 .course-category-card .icon svg {
@@ -164,7 +227,7 @@ header {
 
 .course-category-card .title {
   font-size: 26px;
-  color: #FFCF00;
+  color: #ffcf00;
 }
 
 .course-category-card p {
@@ -172,28 +235,29 @@ header {
 }
 
 .btn-view-more {
-  background-color: #FFCF00;
+  background-color: #ffcf00;
   width: 100%;
   padding: 12px;
   color: #4a368f;
   font-size: 16px;
   margin-bottom: 80px;
   border: 0;
+  text-decoration-line: none;
 }
 
 .btn-view-more:hover {
   background-color: #4a368f;
-  color: #FFCF00;
-  border: 1px solid #FFCF00
+  color: #ffcf00;
+  border: 1px solid #ffcf00;
 }
 
 .btn-view-more:focus {
-  background-color: #FFCF00;
+  background-color: #ffcf00;
   color: #4a368f;
 }
 
-.about-us .flex-h2 h2, 
-.courses  .flex-h2 h2  {
+.about-us .flex-h2 h2,
+.courses .flex-h2 h2 {
   color: #4a368f;
   font-weight: bold;
   font-size: 34px;
@@ -201,13 +265,13 @@ header {
 
 .card-body img,
 .about-us-card img {
- width: 100%;
- height: 300px;
+  width: 100%;
+  height: 230px;
 }
 
 .course-card {
   display: grid;
-  border: 1px solid  #b1a6d6 ;
+  border: 1px solid  #b1a6d6;
   margin-bottom: 12px;
   padding: 12px;
 }
@@ -217,46 +281,57 @@ header {
   border-top-right-radius: 20px;
 }
 
-.card-body   h3 {
-  margin-top:  30px;
+.card-body h3 {
+  margin-top: 30px;
   font-weight: bold;
   font-size: 24px;
 }
 
 .course-card .btn-view-more,
 .about-us .btn-view-more {
-    width: 160px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center 
+  width: 160px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.course-card .btn-view-more {
+  margin-bottom: 12px;
+}
+
+footer {
+  background-color: #352078;
+  color: #fff;
+}
+
+.footer-copy-right-plce {
+  padding-left: 12px;
+}
+
+.footer-copy-right-plce p {
+  padding-top: 0;
+  font-size: 16px;
+}
+
+.about-text {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    padding: 0 24px 0 24px;
   }
 
-  .course-card .btn-view-more {
-    margin-bottom: 12px;
+  .hamburger-icon {
+    display: none;
+    margin: auto;
+    cursor: pointer;
   }
+}
 
-  footer {
-    background-color: #352078;
-    color: #fff;
-  }
-
-  .footer-copy-right-plce {
-     padding-left: 12px;
-  }
-
-  .footer-copy-right-plce p {
-    padding-top: 0;
-    font-size: 16px;
-  }
-
-  .about-text {
-    background-color: #fff;
-  }
-
-@media screen and (max-width: 768px) {
- 
+@media screen and (max-width: 600px) {
   .container {
     padding: 0 16px 0 16px;
   }
@@ -264,6 +339,10 @@ header {
   header {
     height: 60px;
     background-color: transparent;
+  }
+
+  .solidheader {
+    background-color: #fff;
   }
 
   .hero {
@@ -289,19 +368,12 @@ header {
     border-radius: 4px;
   }
 
-  .hamburger-icon div {
-    height: 1px;
-    background-color: #352078;
-    margin-top: 6px;
-    padding: 2px;
-  }
-
   .course-category-card {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 12px;    
+    margin-bottom: 12px;
   }
 
   .about-us-card {
@@ -325,7 +397,5 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
   }
-
 }
