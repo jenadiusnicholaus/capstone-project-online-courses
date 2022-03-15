@@ -1,0 +1,173 @@
+/* #FFCF00 */
+
+/* #352078 */
+
+/* #FFFFFF */
+
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 24px;
+}
+
+h2 {
+  color: #fff
+}
+
+.container {
+    padding: 0 200px 0 200px;
+  }
+
+header {
+  height: 80px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+
+.brand {
+  height: 80px;
+  width: 100px;
+  top: 2px;
+}
+
+.brand img {
+  height: 80px;
+  width: 130px;
+}
+
+.hero {
+  height: 100vh;
+  overflow: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/burner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  color: #352078;
+  font-size: 64px;
+  background: -webkit-linear-gradient(#FFCF00, #352078);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.text-container {
+  height:  20vh;
+  border: 5px solid #fff;
+  padding: 12px;
+}
+
+.main-course-categories {
+  background-color: #352078;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.flex-h2 {
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.flex-h2 h2 {
+  padding-top: 80px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 34px
+}
+
+.flex-h2 hr {
+  padding-top: 2px;
+  margin-top: 2px;
+  border: 1px solid #FFCF00;
+  width: 30px;
+  background-color:#FFCF00;
+}
+
+.course-category-card {
+  padding: 12px;
+  color: #fff;
+  background-color:#4a368f;
+  border: 1px solid #4a368f;
+}
+
+.course-category-card div
+  {
+    /* width: 140px; */
+    padding: 0 12px 0 12px;
+}
+
+.course-category-card .icon svg {
+  font-size: 52px;
+}
+
+.course-category-card .title {
+  font-size: 26px;
+  color: #FFCF00;
+}
+
+.course-category-card p {
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+  .container {
+    padding: 0 16px 0 16px;
+  }
+
+  header {
+    height: 60px;
+    background-color: transparent;
+  }
+
+  .hero {
+    top: 0;
+    padding: 124px 16px 0 16px;
+    padding-top: 120px;
+  }
+
+  .brand a img {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburger-icon {
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    padding: 3px;
+    border-radius: 4px;
+  }
+
+  .hamburger-icon div {
+    height: 1px;
+    background-color: #352078;
+    margin-top: 6px;
+    padding: 2px;
+  }
+
+  .course-category-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;    
+  }
+
+}
