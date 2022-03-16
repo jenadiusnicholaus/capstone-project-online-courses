@@ -320,7 +320,8 @@ u {
 
 .course-card .btn-view-more,
 .about-us .btn-view-more {
-  width: 160px;
+  border: none;
+  width: 100px;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -509,15 +510,11 @@ footer {
   }
 }
 
-@media screen and (min-width: 769px) and (min-width: 1030px) {
-  .container {
-    padding: 0 24px 0 24px;
-  }
-}
+
 
 @media screen and (min-width: 769px) {
   .container {
-    padding: 0 200px 0 200px;
+    padding: 0 24px 0 24px;
   }
 
   header .big-nav {
@@ -733,6 +730,12 @@ footer {
   }
 }
 
+@media screen and (min-width: 771px) and (min-height: 1030px) {
+  .container {
+    padding: 0 24px 0 24px;
+  }
+}
+
 @media screen and (min-width: 820px) and (min-height: 1180px) {
   .container {
     padding: 0 24px 0 24px;
@@ -843,9 +846,7 @@ footer {
 }
 
 @media screen and (min-width: 912px) and (max-height: 1368px) {
-  /* .container {
-    padding: 0 24px 0 24px;
-  } */
+
   .hero {
     padding-top: 200px;
     height: 100vh;
@@ -856,12 +857,21 @@ footer {
     line-height: 10vh;
   }
 
-  /* .top-nav {
-    width: 100%;
-    padding-right: 200px;
-  } */
+}
 
-  /* .top-nav  ul{
-    margin-right: 80px;
-  } */
+@media screen and (min-width: 992px) {
+
+  .container {
+    padding: 0 200px 0 200px;
+  }
+  
+}
+
+
+@media screen and (min-width: 996px) {
+
+  .container {
+    padding: 0 100px 0 100px;
+  }
+  
 }
