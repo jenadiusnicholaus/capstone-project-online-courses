@@ -510,8 +510,6 @@ footer {
   }
 }
 
-
-
 @media screen and (min-width: 769px) {
   .container {
     padding: 0 24px 0 24px;
@@ -681,7 +679,6 @@ footer {
     margin-left: 12px;
   }
 
-
   footer {
     display: flex;
     align-items: center;
@@ -846,7 +843,6 @@ footer {
 }
 
 @media screen and (min-width: 912px) and (max-height: 1368px) {
-
   .hero {
     padding-top: 200px;
     height: 100vh;
@@ -856,22 +852,16 @@ footer {
     font-size: 63px;
     line-height: 10vh;
   }
-
 }
 
 @media screen and (min-width: 992px) {
-
   .container {
     padding: 0 200px 0 200px;
   }
-  
 }
 
-
 @media screen and (min-width: 996px) {
-
   .container {
     padding: 0 100px 0 100px;
   }
-  
 }
