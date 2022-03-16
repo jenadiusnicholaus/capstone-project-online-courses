@@ -136,6 +136,7 @@ select:focus {
   -webkit-text-fill-color: transparent;
   font-weight: 600;
   line-height: 40px;
+  padding-top: 124px;
 }
 
 .text-container {
