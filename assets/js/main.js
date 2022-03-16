@@ -1,32 +1,32 @@
 const Data = [
-    {
-        imagename: 'kid6.jpg',
-        title: 'Scratch Game Development',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.'
-        
-    },
+  {
+    imagename: 'kid6.jpg',
+    title: 'Scratch Game Development',
+    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.',
 
-    {
-        imagename: 'kid3.jpeg',
-        title: 'Coding Foundations',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.'
-        
-    },
+  },
 
-    {
-        imagename: 'kid3.jpeg',
-        title: 'Python Coding For Kids',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.'
-        
-    },
+  {
+    imagename: 'kid3.jpeg',
+    title: 'Coding Foundations',
+    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.',
 
-    {
-        imagename: 'kids.webp',
-        title: 'Python Game Development',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.'
-        
-    },
-]
+  },
+
+  {
+    imagename: 'kid3.jpeg',
+    title: 'Python Coding For Kids',
+    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.',
+
+  },
+
+  {
+    imagename: 'kids.webp',
+    title: 'Python Game Development',
+    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta, cum sequi, nobis nisi odit molestiae a voluptatum quasi, deleniti hic dignissimos labore accusantium obcaecati iure in eaque enim ut!.',
+
+  },
+];
 
 const logoToggleClass = (element, toggleClass) => {
   element.classList.toggle(toggleClass);
@@ -40,12 +40,12 @@ document.querySelectorAll('.hamburger-icon').forEach((hamburgIcon) => {
 });
 
 window.addEventListener('load', () => {
-    const cardContainerEl = document.getElementById('card-container');
-    cardContainerEl.innerHTML = '';
-    let card = '';
+  const cardContainerEl = document.getElementById('card-container');
+  cardContainerEl.innerHTML = '';
+  let card = '';
 
-    for (let index =0; index< Data.length; index +=1){
-        card += `<div class="course-card">
+  for (let index = 0; index < Data.length; index += 1) {
+    card += `<div class="course-card">
         <div class="card-body">
             <img width="200" height="200" src="assets/images/${Data[index].imagename}" alt=" about us image">
             <h3>${Data[index].title}</h3>
@@ -56,7 +56,6 @@ window.addEventListener('load', () => {
             </svg>
         </a>
     </div>`;
-    }
-    cardContainerEl.innerHTML = card;
-
+  }
+  cardContainerEl.innerHTML = card;
 });
