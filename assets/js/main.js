@@ -28,8 +28,6 @@ const Data = [
     },
 ]
 
-
-
 const logoToggleClass = (element, toggleClass) => {
   element.classList.toggle(toggleClass);
 };

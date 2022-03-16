@@ -523,16 +523,14 @@ footer {
   }
 
   .top-nav {
-    width: 80%;
     display: flex;
     background-color: #352078;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: space-between;
     height: 30px;
   }
 
   nav ul {
-    width: 100%;
     display: flex;
     flex-direction: row;
     -ms-flex-align: start;
@@ -540,7 +538,7 @@ footer {
   }
 
   nav ul li {
-    margin-right: 32px;
+    margin-right: 12px;
     list-style: none;
   }
 
@@ -749,12 +747,9 @@ footer {
   }
 
   .top-nav {
-    width: 100%;
+    width: 90%;
   }
 
-  .top-nav ul {
-    margin-right: 40px;
-  }
 
   .solidheader {
     background-color: #fff;
@@ -799,14 +794,6 @@ footer {
     font-size: 54px;
     line-height: 60px;
     margin-bottom: 100px;
-  }
-
-  .top-nav {
-    width: 100%;
-  }
-
-  .top-nav ul {
-    margin-right: 40px;
   }
 
   .solidheader {
@@ -856,12 +843,12 @@ footer {
 
 @media screen and (min-width: 992px) {
   .container {
-    padding: 0 200px 0 200px;
+    padding: 0 100px 0 100px;
   }
 }
 
 @media screen and (min-width: 996px) {
   .container {
-    padding: 0 100px 0 100px;
+    padding: 0 200px 0 200px;
   }
 }

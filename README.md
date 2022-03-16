@@ -2,7 +2,7 @@
 
 Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructors
 
-![screenshot](assets/img/mobileversion.png)
+![screenshot](assets/imges/kidco.png)
 
 ## Built With
 
@@ -10,7 +10,11 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 
 ## Live Demo
 
-[Live Demo Link](https://jenadiusnicholaus.github.io/my-portfolio-site/)
+[Live Demo Link](https://jenadiusnicholaus.github.io/capstone-project-online-courses/)
+
+## watch the video
+
+[How kidco it works](https://jenadiusnicholaus.github.io/capstone-project-online-courses/)
 
 ## Prerequisites
 
