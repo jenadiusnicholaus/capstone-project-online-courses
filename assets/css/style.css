@@ -374,10 +374,6 @@ footer {
     background-color: transparent;
   }
 
-  .hero {
-    padding-top: 124px;
-  }
-
   .solidheader {
     background-color: #fff;
   }
@@ -452,10 +448,6 @@ footer {
 
   .container {
     padding: 0 24px 0 24px;
-  }
-
-  .hero {
-    padding-top: 143px;
   }
 
   .solidheader {
@@ -556,7 +548,6 @@ footer {
 
   .hero {
     height: 80vh;
-    padding-top: 100px;
   }
 
   .hamburger-icon {
