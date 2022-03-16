@@ -2,7 +2,7 @@
 
 Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructors
 
-![screenshot](assets/imges/kidco.png)
+![screenshot](assets/images/kidco.png)
 
 ## Built With
 
