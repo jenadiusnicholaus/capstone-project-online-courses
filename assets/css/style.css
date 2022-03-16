@@ -99,21 +99,22 @@ header {
 }
 
 .hero {
-  height: 100vh;
-  overflow: auto;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/burner.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 224px;
+  top: 0;
 }
 
 .hero h1 {
   color: #352078;
-  font-size: 64px;
+  font-size: 34px;
   background: -webkit-linear-gradient(#ffcf00, #352078);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-  line-height: 64px;
+  line-height: 40px;
 }
 
 .text-container {
@@ -146,7 +147,8 @@ header {
 }
 
 .available-day h5,
-p {
+p,
+h6 {
   margin: 12px;
   padding: 0;
 }
@@ -162,7 +164,7 @@ p {
   color: #ffcf00;
   background-color: #352078;
   border-radius: 20px;
-  padding: 12px;
+  padding: 8px;
   font-size: medium;
   align-items: center;
 }
@@ -170,7 +172,7 @@ p {
 .contact-info p,
 u {
   font-size: medium;
-  line-height: 0;
+  line-height: 7px;
 }
 
 .contact-info {
@@ -274,6 +276,7 @@ u {
   border: 1px solid  #b1a6d6;
   margin-bottom: 12px;
   padding: 12px;
+  background-color: #fff;
 }
 
 .card-body img {
@@ -319,18 +322,6 @@ footer {
   background-color: #fff;
 }
 
-@media screen and (min-width: 769px) {
-  .container {
-    padding: 0 24px 0 24px;
-  }
-
-  .hamburger-icon {
-    display: none;
-    margin: auto;
-    cursor: pointer;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .container {
     padding: 0 16px 0 16px;
@@ -341,14 +332,12 @@ footer {
     background-color: transparent;
   }
 
-  .solidheader {
-    background-color: #fff;
+  .hero {
+    padding-top: 124px;
   }
 
-  .hero {
-    top: 0;
-    padding: 124px 16px 0 16px;
-    padding-top: 120px;
+  .solidheader {
+    background-color: #fff;
   }
 
   .brand a img {
@@ -397,5 +386,221 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    padding: 0 54px 0 54px;
+  }
+
+  .card-body img,
+  .about-us-card img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .text-container p {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 60px;
+    background-color: transparent;
+  }
+
+  .solidheader {
+    background-color: #fff;
+  }
+
+  .brand a img {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburger-icon {
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    padding: 3px;
+    border-radius: 4px;
+  }
+
+  .course-category-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .about-us-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body p {
+    line-height: 2rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+  header {
+    height: 60px;
+    background-color: transparent;
+  }
+
+  .solidheader {
+    background-color: #fff;
+  }
+
+  .brand a img {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    padding: 3px;
+    border-radius: 4px;
+  }
+
+  .course-category-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .about-us-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body p {
+    line-height: 2rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    padding: 0 200px 0 200px;
+  }
+
+  .hero {
+    height: 80vh;
+    padding-top: 100px;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    width: 50%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: start;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-right: 32px;
+    list-style: none;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  nav ul .active a {
+    color: #ffcf00;
+  }
+
+  nav ul li a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffcf00;
+  }
+
+  nav ul li a:focus {
+    color: #ffcf00;
+  }
+
+  nav ul li button {
+    background-color: #ffcf00;
+    padding: 9px;
+    border: 0;
+    width: 140px;
+    border-radius: 20px;
+  }
+
+  nav ul li button:hover {
+    color: #ffcf00;
+    background-color: #352078;
+    border: 1px solid #ffcf00;
+    border-radius: 20px;
+  }
+
+  nav ul li button:focus {
+    background-color: #ffcf00;
+    color: #352078;
+    border: 2px solid #352078;
+    border-radius: 20px;
   }
 }
