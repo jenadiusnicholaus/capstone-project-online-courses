@@ -14,7 +14,7 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 
 ## watch the video
 
-[How kidco it works](https://www.loom.com/share/7f6de4e05ec04af980631927e6816e14)
+[How kidco works](https://www.loom.com/share/7f6de4e05ec04af980631927e6816e14)
 
 ## Prerequisites
 
