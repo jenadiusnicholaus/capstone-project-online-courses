@@ -2,7 +2,7 @@
 
 Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructors
 
-![screenshot](assets/images/kidco.png)
+![screenshot](assets/images/kidcotwo.png)
 
 ## Built With
 
@@ -36,6 +36,7 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 
 ## Acknowledgments
 
+- All appropriation credit goes  to Cindy Shin the author of the [Origin design here](https://creativecommons.org/licenses/)
 - Hat tip to anyone whose code was used
 - And an appropriate  goes to  Creative Commons for the best desin.  
 - Inspiration
