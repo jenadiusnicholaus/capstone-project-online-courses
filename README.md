@@ -2,7 +2,7 @@
 
 Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructors
 
-![screenshot](assets/img/mobileversion.png)
+![screenshot](assets/images/kidcotwo.png)
 
 ## Built With
 
@@ -10,7 +10,11 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 
 ## Live Demo
 
-[Live Demo Link](https://jenadiusnicholaus.github.io/my-portfolio-site/)
+[Live Demo Link](https://jenadiusnicholaus.github.io/capstone-project-online-courses/)
+
+## watch the video
+
+[How kidco works](https://www.loom.com/share/7f6de4e05ec04af980631927e6816e14)
 
 ## Prerequisites
 
@@ -32,6 +36,7 @@ Kids Learn To Code By Coding. Live Classes With Seasoned professional Instructor
 
 ## Acknowledgments
 
+- All appropriation credit goes  to Cindy Shin the author of the [Origin design here](https://creativecommons.org/licenses/)
 - Hat tip to anyone whose code was used
 - And an appropriate  goes to  Creative Commons for the best desin.  
 - Inspiration
