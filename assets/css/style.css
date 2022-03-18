@@ -4,10 +4,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  color: #333; 
+  color: #333;
 }
 
-p , a {
+p,
+a {
   font-weight: 400;
 }
 
@@ -16,25 +17,23 @@ a {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 54px;
   text-transform: uppercase;
-  line-height: 74px;
+  line-height: 64px;
   padding-top: 2px;
   padding-bottom: 0;
-  margin-bottom: 27px;
+  margin-bottom: 17px;
   margin-top: 0;
   background: #ec5242;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'COCOGOOSE', sans-serif;
-
 }
 
 h2 {
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-
 }
 
 header {
@@ -75,7 +74,7 @@ select:focus {
 .brand span {
   display: flex;
   font-weight: 700;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   font-size: 29px;
   height: 80px;
@@ -109,12 +108,12 @@ select:focus {
 }
 
 .mobile-menu {
-  margin-top: 27px;
+  margin-top: 0;
   display: none;
   position: absolute;
   color: #fff;
   background-color: #272a31;
-  top: 30px;
+  top: 0;
   left: 0;
   height: 100vh;
   width: 100%;
@@ -126,12 +125,12 @@ select:focus {
   flex-direction: column;
   align-items: start;
   justify-content: flex-start;
-  width: 85%;
+  width: 100%;
   padding: 0 64px 0 24px;
 }
 
 .mobile-menu li {
-  width: 100%;
+  width: 80%;
   margin-bottom: 10px;
   text-decoration: none;
   list-style-type: none;
@@ -155,27 +154,7 @@ select:focus {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  padding-top: 224px;
-  top: 0;
-}
-
-.hero .hero-text p {
-  color: #ec5242;
-  font-size: 44px;
-  width: 100%;
-  margin-bottom: 20px;
-  text-align: start;
-}
-
-.text-container p{
-  max-height: 8rem;
-  -webkit-box-orient: vertical;
-  text-align: start;
-  display: block;
-  display: -webkit-box;
-  overflow: hidden !important;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
+  padding-top: 104px;
 }
 
 .availabity {
@@ -186,7 +165,7 @@ select:focus {
   padding-right: 12px;
 }
 
-.availabity  h2 {
+.availabity h2 {
   margin-bottom: 2px;
   font-size: 30px;
   font-weight: 900;
@@ -195,9 +174,9 @@ select:focus {
   text-transform: uppercase;
 }
 
-
 .availabity p {
   font-size: 20px;
+  text-align: start;
 }
 
 .main-course-categories {
@@ -260,15 +239,14 @@ select:focus {
 }
 
 .course-category-card:hover {
-  border: 1px solid #d3d3d3
+  border: 1px solid #d3d3d3;
 }
 
 .more-link {
   width: 100%;
-  display: flex;;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .btn-view-more {
@@ -298,6 +276,23 @@ select:focus {
 
 .about-us-card h2 {
   color: #272a31;
+}
+
+.company-log-description h2 {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.company-log-description h2,
+.company-log-description p {
+  text-align: center;
+}
+
+.recent-course-card h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 100px;
 }
 
 .about-us .flex-h2 h2,
@@ -336,11 +331,9 @@ footer {
   font-size: 16px;
 }
 
-
 .card-body {
   display: grid;
   grid-template-columns: 1fr 3fr;
-
 }
 
 .col-3 {
@@ -358,12 +351,11 @@ footer {
 }
 
 .col-3 h6 {
-  color:#ec5242;
+  color: #ec5242;
   font-size: 16px;
   padding-top: 12px;
   margin: 0;
   padding-bottom: 20px;
-
 }
 
 .col-3 p {
@@ -375,24 +367,21 @@ footer {
   overflow: hidden !important;
   text-overflow: ellipsis;
   -webkit-line-clamp: 4;
+  text-align: start;
 }
 
 .course-row button {
   display: none;
   padding-top: 20px;
   margin-bottom: 40px;
-  padding: 24px;
-  border: none;
   width: 100%;
   background-color: #fff;
-  border: 1px solid #d3d3d3
-
+  border: 1px solid #d3d3d3;
 }
 
-.course-row button  span {
+.course-row button span {
   text-transform: uppercase;
   font-size: 20px;
-
 }
 
 .course-row button i {
@@ -400,25 +389,19 @@ footer {
   font-size: 20px;
 }
 
-
-
-.patners-container{
+.patners-container {
   padding-top: 0;
   background-color: #272a31;
-  padding-bottom: 100px;;
   height: 300px;
   padding-bottom: 20px;
-
 }
-
 
 .patners-container .flex-h2 h2 {
   margin-top: 0;
   padding-top: 60px;
 }
 
-
-.patners-container .flex-h2  {
+.patners-container .flex-h2 {
   height: 150px;
 }
 
@@ -435,14 +418,14 @@ footer {
   width: 100px;
 }
 
-.contacts-info  h3 {
+.contacts-info h3 {
   color: #272a31;
   text-align: center;
   padding-bottom: 2px;
   margin-bottom: 0;
 }
 
-.contacts-info  p {
+.contacts-info p {
   line-height: 0;
   color: #272a31;
   text-align: center;
@@ -451,20 +434,11 @@ footer {
   text-decoration: underline;
 }
 
-.logo-info  {
+.logo-info {
   padding-top: 50px;
 }
-.company-log-description h2 {
 
-  color: #272a31;
-  font-weight: bold;
-  font-size: 24px;
-}
-.company-log-description h2, p {
-  text-align: center;
-}
-
-.logo-image  img{
+.logo-image img {
   width: 100%;
   height: 200px;
   border: 1px solid #d3d3d3;
@@ -482,24 +456,67 @@ footer {
   margin-bottom: 20px;
   color: white;
   background-position: center;
-  background-image: linear-gradient(0deg, rgba(168, 54, 39, 0.904),  rgba(206, 54, 54, 0.527)), url('../images/kid2.jpg');
+  background-image: linear-gradient(0deg, rgba(168, 54, 39, 0.904), rgba(206, 54, 54, 0.527)), url('../images/kid2.jpg');
   background-size: cover;
-
-}
-
-
-.recent-course-card h2 {
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 100px;
 }
 
 .recent-course-card p {
   font-weight: bold;
   font-size: 20px;
-
 }
 
+.text-container {
+  margin-top: 0;
+  height: auto;
+  border: 5px solid #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.footer-in-about {
+  color: #fff;
+  background-color: #272a31;
+}
+
+.text-container p {
+  width: 100%;
+  max-height: 4rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+}
+
+.footer-in-about .footer-copy-right-plce p {
+  text-align: start;
+}
+
+.footer-in-about .footer-brand a span {
+  color: #fff;
+}
+
+.closse-list {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close {
+  font-size: 34px;
+}
+
+.hero .hero-text p {
+  color: #ec5242;
+  font-size: 44px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: start;
+}
 
 @media screen and (max-width: 600px) {
   .container {
@@ -510,32 +527,73 @@ footer {
     height: 60px;
     background-color: transparent;
   }
-  
+
   .hero {
-    height: 90vh;
+    height: 100vh;
+  }
+
+  .col-3 p {
+    padding: 0;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+  }
+
+  .footer-copy-right-plce p {
+    padding-top: 0;
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
   }
 
   .hero .hero-text {
-    display:flex;
+    display: flex;
     justify-content: flex-start;
     flex-direction: column;
     padding-top: 100px;
     margin-bottom: 0;
     margin-right: 0;
     padding-right: 0;
-
   }
 
-  .hero .hero-text p {
-    font-size: 6vw;
-    align-items: start;
-  }
-
-  .hero .hero-text-in-about p, h1{
-    text-align: center;
+  .text-container p {
     width: 100%;
-    /* background-color: red; */
+    max-height: 4rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+  }
 
+  .course-category-card p {
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    text-align: start;
+  }
+
+  .hero .hero-text p,
+  .hero .hero-text h1 {
+    font-size: 6vw;
+    width: 100%;
+    align-items: start;
+    text-align: start;
+  }
+
+  .hero-text-in-about h1 .hero .hero-text-in-about p {
+    text-align: center;
+    align-items: center;
+    width: 100%;
   }
 
   .hero .hero-text h1 {
@@ -552,31 +610,11 @@ footer {
     font-family: 'COCOGOOSE', sans-serif;
   }
 
-
-  .text-container {
-    margin-top: 0;
-    height: auto;
-    border: 5px solid #fff;
-    padding: 12px;
-  }
-
   .text-container-in-about {
-    background-color:#fff;
+    background-color: #fff;
   }
 
-
-  .text-container p{
-    width: 100%;
-    max-height: 4rem;
-    -webkit-box-orient: vertical;
-    display: block;
-    display: -webkit-box;
-    overflow: hidden !important;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 4;
-  }
-
-  .availabity  h2 {
+  .availabity h2 {
     margin-bottom: 2px;
     font-size: 20px;
     font-weight: 900;
@@ -586,16 +624,15 @@ footer {
     font-family: 'Lato', sans-serif;
   }
 
-  .course-category-card p {
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    text-align: start;
-  }
-  
-
   .solidheader {
-    background-color: #fff;
+    background-color: #3b3f47;
+  }
+
+  .footer-brand span {
+    height: 100px;
+    font-size: 54px;
+    font-weight: 700;
+    width: 450px;
   }
 
   .brand a span {
@@ -628,23 +665,10 @@ footer {
     flex-direction: column;
   }
 
-
-  .card-body  img {
+  .card-body img {
     width: 120px;
     height: 130px;
   }
-
-  .col-3 p {
-    padding: 0;
-    margin: 0;
-    -webkit-box-orient: vertical;
-    display: block;
-    display: -webkit-box;
-    overflow: hidden !important;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 2;
-  }
-
 
   .patners-container {
     display: none;
@@ -653,6 +677,7 @@ footer {
   .course-row button {
     display: block;
   }
+
   .footer-content {
     display: flex;
     flex-direction: row;
@@ -660,33 +685,14 @@ footer {
     justify-content: space-between;
   }
 
-  .footer-brand span {
-    height: 100px;
-    font-size: 54px;
-    font-weight: 700;
-    width: 450px;
-  }
   .footer-copy-right-plce h5 {
     padding-bottom: 0;
-   }
-
-
-  .footer-copy-right-plce p {
-  padding-top: 0;
-  margin-top: 0;
-  -webkit-box-orient: vertical;
-  display: block;
-  display: -webkit-box;
-  overflow: hidden !important;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
   }
 
   .patner-about-page {
     display: block;
     height: 344px;
     padding-bottom: 40px;
-
   }
 
   .patners {
@@ -701,16 +707,72 @@ footer {
     width: 100px;
     height: 50px;
   }
-
-
-  
 }
 
+@media screen and (max-width: 540px) {
+  .hero {
+    height: 100vh;
+  }
+
+  .hero .hero-text h1 {
+    font-size: 8vw;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-top: 2px;
+    padding-bottom: 0;
+    margin-bottom: 27px;
+    margin-top: 0;
+    background: #ec5242;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .logo-info {
+    margin-top: 80px;
+  }
+
+  .contacts-info {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+
+  .text-container p {
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    text-align: start;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+  }
+
+  .logo-image img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logo-info {
+    margin-top: 80px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   header {
     height: 60px;
     background-color: transparent;
+  }
+
+  .hero {
+    height: 100vh;
+  }
+
+  .hero-text,
+  .hero-text-in-about {
+    margin-top: 80px;
   }
 
   .container {
@@ -721,12 +783,32 @@ footer {
     background-color: #fff;
   }
 
-  .brand a img {
+  .brand a span {
     display: none;
   }
 
   .desktop-menu {
     display: none;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .course-category-card p,
+  .col-3 p {
+    text-align: start;
+  }
+
+  .hero .hero-text-in-about p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero .hero-text-in-about h1 {
+    text-align: center;
+    width: 100%;
   }
 
   .hamburger-icon {
@@ -759,11 +841,16 @@ footer {
     padding: 0 24px 0 24px;
   }
 
+  .hero {
+    height: 100vh;
+  }
+
   header .big-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
   }
 
   .hero .hero-text {
@@ -772,12 +859,106 @@ footer {
     margin-bottom: 0;
   }
 
+  .hero .hero-text-in-about {
+    width: 100%;
+    padding-top: 200px;
+    margin-bottom: 0;
+  }
+
   .text-container {
-    /* width: 55%; */
+    width: 55%;
     margin-top: 0;
     height: auto;
     border: 5px solid #fff;
     padding: 12px;
+  }
+
+  .text-container-in-about {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .text-container-in-about p {
+    max-height: 10rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+    text-align: center;
+  }
+
+  .text-container p {
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    text-align: start;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+  }
+
+  .about-us-card p {
+    line-height: 2rem;
+    max-height: 20rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 100;
+  }
+
+  .footer-copy-right-plce p {
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .hero .hero-text-in-about p,
+  .hero-text-in-about h1 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contacts-info {
+    margin-top: 20px;
+  }
+
+  .contacts-info h3 {
+    margin-top: 20px;
+  }
+
+  .logo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .logo-info img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60vh;
+    height: 200px;
+  }
+
+  .recent-course {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rec-card-container .recent-course-card {
+    margin-right: 12px;
+  }
+
+  .rec-card-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .top-nav {
@@ -809,10 +990,6 @@ footer {
   .top-nav ul li {
     list-style-type: none;
     margin-right: 12px;
-  }
-
-  .hero {
-    height: 80vh;
   }
 
   .hamburger-icon {
@@ -912,17 +1089,6 @@ footer {
     height: 400px;
   }
 
-  .about-us-card p {
-    line-height: 2rem;
-    max-height: 20rem;
-    -webkit-box-orient: vertical;
-    display: block;
-    display: -webkit-box;
-    overflow: hidden !important;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 100;
-  }
-
   .p-container .btn-view-more {
     margin-left: 12px;
   }
@@ -946,13 +1112,6 @@ footer {
   .footer-copy-right-plce h5 {
     padding: 0;
     margin-bottom: 0;
-  }
-
-  .footer-copy-right-plce p {
-    width: 100%;
-    padding: 0;
-    margin-top: 0;
-    margin-left: 0;
   }
 
   .footer-brand {
@@ -980,15 +1139,7 @@ footer {
 
 @media screen and (min-width: 820px) and (min-height: 1180px) {
   .container {
-    padding: 0 24px 0 24px;
-  }
-
-  .hero {
-    margin-top: 144px;
-  }
-
-  .top-nav {
-    width: 90%;
+    padding: 0 70px 0 70px;
   }
 
   .solidheader {
@@ -1003,14 +1154,24 @@ footer {
     margin-bottom: 12px;
   }
 
-  .about-us-card {
-    display: flex;
-    flex-direction: column;
+  .text-container-in-about {
+    height: 200px;
   }
 
-  .about-us-card img {
-    width: 100%;
-    height: 550px;
+  .text-container-in-about p {
+    line-height: 2rem;
+    max-height: 20rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    text-align: center;
+  }
+
+  .logo-info {
+    margin-top: 20px;
   }
 
   .footer-content {
@@ -1027,7 +1188,7 @@ footer {
   }
 
   .hero {
-    margin-top: 144px;
+    margin-top: 80px;
   }
 
   .hero h1 {
@@ -1042,7 +1203,6 @@ footer {
 }
 
 @media screen and (min-width: 1621px) {
-
   .about-us-card img {
     width: 100vw;
     height: 550px;
@@ -1065,15 +1225,9 @@ footer {
 }
 
 @media screen and (min-width: 912px) and (max-height: 1368px) {
-  .hero {
-    padding-top: 200px;
-    height: 100vh;
+  .container {
+    padding: 0 100px 0 100px;
   }
-
-  /* .hero h1 {
-    font-size: 63px;
-    line-height: 10vh;
-  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -1086,6 +1240,42 @@ footer {
   .container {
     padding: 0 200px 0 200px;
   }
+
+  .main-course-categories {
+    margin-top: 200px;
+  }
 }
 
+@media screen and (min-width: 1024px) and (max-height: 600px) {
+  .container {
+    padding: 0 100px 0 100px;
+  }
 
+  .hero {
+    width: 100vh;
+  }
+
+  .hero .hero-text h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 44px;
+    padding-top: 2px;
+    padding-bottom: 0;
+    margin-bottom: 27px;
+    margin-top: 0;
+    background: #ec5242;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .hero .hero-text {
+    width: 90%;
+    padding-top: 100px;
+    margin-bottom: 0;
+  }
+
+  .logo-info {
+    margin-top: 60vh;
+  }
+}
